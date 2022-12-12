@@ -314,7 +314,8 @@ img {
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
-.customer.link:hover{
+.customer.link:hover,
+.customer.link:focus{
     fill: var(--main-color);
     border-color: var(--main-color);
 }
