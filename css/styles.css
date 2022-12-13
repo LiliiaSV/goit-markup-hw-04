@@ -260,7 +260,7 @@ img {
     padding: 32px 16px;
 }
 /* Посилання на соц.мережі */
-.item-logo{
+.cards-logo{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,7 +270,9 @@ img {
     height:40px;
     border-radius: 50%;
 }
-.item-logo:hover{
+.cards-logo:hover,
+.cards-logo:focus{
+    background-color: var(--success-color);
     cursor: pointer;
 }
 .item-logo:not(:last-child){
@@ -366,7 +368,8 @@ footer{
 .item-logo.contact:not(:last-child){
     margin-right: 16px;
 }
-.item-logo.contact:hover{
+.item-logo.contact:hover,
+.item-logo.contact:focus{
     cursor: pointer;
     background-color: var(--success-color); 
 }
